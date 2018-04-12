@@ -55,3 +55,6 @@
 // let yourBirthday = confirm("" prompt("Enter Your Birthday"));
 //
 // console.log(yourBirthday);
+
+const userStory = prompt("");
+console.log(userStory);
