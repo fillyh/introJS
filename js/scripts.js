@@ -1,7 +1,8 @@
 firstName = prompt("Hey! Didn't I see you at BitWise? What was your first name again?");
-lastName = prompt("Oh! Hi " + firstName + "! So, like, what's your last name?");
 
 console.log(firstName);
+
+lastName = prompt("Oh! Hi " + firstName + "! So, like, what's your last name?");
 
 alert(lastName + "! I knew it!");
 
