@@ -88,3 +88,11 @@ if(best === "42"){
 else{
   console.log('boooo');
 }
+
+/*Day Three Assignment
+Asks for the user's age using the Date object.
+if the user is over 18, allow them to proceed, otherwise alert the user that they are not old enough.
+Now that all your users at this point are at least 18, ask if they are less than 80 years old.
+Now ask the users who are between 18 and 80 if they like Star Wars. If they are over 80, ask if they like prunes.
+If they say they don't Star Wars, end the program. In all other cases, alert them with a message.
+*/
