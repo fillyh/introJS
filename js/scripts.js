@@ -10,3 +10,12 @@ usersBirthday = prompt("I'm not weird or anything, but what's your birthday" + "
 rightNow = new Date (usersBirthday);
 
 alert(rightNow)
+
+
+/* In class answer for birthday - review later*/
+
+var birthday = prompt ("Hey! What's your birthday")
+
+
+var birthdayObject = new Date(birthday);
+var chceckBirthday = confirm('so your birthday is' + birthdayObject + '?');
