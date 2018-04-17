@@ -9,7 +9,7 @@ let starWarsFan;
 
 
 if (usersAge<1999){
-  alert ("Hey! You are over 18 Proceed");
+  alert ("Hey! You are over 18! Proceed young Padawan.");
   over80 = confirm("Are you older than 80? \nHit OK for YES or CANCEL for NO");
   console.log(over80);
   if (over80===true){
