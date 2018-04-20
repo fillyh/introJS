@@ -1,7 +1,11 @@
-body{
-    background-color: black;
-  background-image:url("https://studybreaks.com/wp-content/uploads/2018/03/Star-Wars-feature-image.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+.background{
+  margin: 0 auto;
+  background-color: white;
+}
 
+.image{
+  width:30vw;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

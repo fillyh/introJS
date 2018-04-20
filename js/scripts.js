@@ -1,121 +1,42 @@
-// // feilds
-// let emailArr;
-// var yourEmail;
-//
-// while (true) {
-//   //user input
-//   var yourEmail = prompt('What is your email?');
-//   emailArr = yourEmail.split("");
-//
-//   if (!(emailArr.includes('@'))) {
-//     var yourEmail = prompt('That was not a valid email. Please try again.');
-//   }
-//   else if (!(emailArr.includes('.'))) {
-//     var yourEmail = prompt('That was not a valid email. Please try again.');
-//   }
-//   else {
-//     alert('Thanks for providing a valid email.');
-//   }
-// }
+// Prompts your user for their name.
+// Next, ask the user's favorite color. (Provide the user with the basic 10 colors as options i.e. red, orange, yellow, green, blue, pink, purple, black, white, and grey).
+// Depending on the color, write 9 different responses for the possible answers. Include the user's name in the response message.
 
+let usersName = prompt("H! What's your name?");
 
-// var numOfProjects = prompt("How many projects do you have? You can choose a number 0-2.");
-//
-// switch(parseInt(numOfProjects)) {
-//   case 0:
-//   	alert("You won't have a projects section on your page");
-//   	break;
-// 	case 1:
-//   	alert("You'll only have one showing");
-//   	break;
-// 	case 2:
-//     alert("You'll only have one showing");
-// 		break;
-//   default:
-//     alert('You didn\'t follow the rules.');
-// }
+let favColor = prompt("Hi! " + usersName + "! Which of the following 10 colors, would you say is your favorite? \n Red, Orange, Yellow, Green, Blue, Pink, Purple, Black, White or Grey");
 
-// var yourAge=prompt('how Old are you');
-// parseInt(yourAge)>=18 ? alert('you can buy a lotto ticket') : alert(`you can't buy a ticket`)
-
-// function chooseAdventure() {
-//     while (true) {
-//
-//         var location = prompt("Would you like to go to the store or relax at home? Respond by typing store or home", 'store, home');
-//
-//         if (location == "store") {
-//             var what = prompt("Are you going to bake or bbq?", 'bake, bbq');
-//         }
-//         if (what == "bake") {
-//             prompt("You made some awesome cupcakes!");
-//             break;
-//         }
-//         if(what == "bbq") {
-//             prompt("You made some awesome kabobs!");
-//             break;
-//         }
-//         if (location == "home") {
-//             var activity = prompt("Would you like to go to watch netflix or go swimming?", 'netflix, swimming');
-//         }
-//         if (activity == "netflix") {
-//             alerts("You watched Jessica Jones");
-//             break;
-//         }
-//         if (activity == "swimming") {
-//             prompt("You cooled off in the pool");
-//             break;
-//         }
-//         else {
-//             prompt("Sorry, you entered the wrong input or it wasn't lower-case.");
-//             break;
-//         }
-//     }
-// }
-//
-// chooseAdventure();
-
-// let cars =["jeep" , "subaru" , "honda"];
-// // console.log(cars[1]);
-// // console.log(cars[1].length);
-// // console.log(cars.unshift("jeep", "honda"));
-// //
-// // cars.push("bmw");
-// // console.log(cars);
-// //
-// // let removedCar =cars.pop();
-// // console.log (removedCar);
-// //
-// // let newCar =cars.shift();
-// // console.log (removedCar);
-//
-// console.log(cars);
-//
-// cars.splice(2, 0, "chevy");
-// console.log(cars);
-//
-// let cars2 = cars.slice();
-// console.log("New list: " + cars2);
-
-// let arr = ["christa", "Ryeker", "Bryan", "Jeff", "sam"];
-let arr = ["christa", "Bryan", "Jeff", "sam"];
-// console.log(Array.isArray(arr));
-// arr.shift();
-// console.log(arr);
-//
-// let bestEver = arr.slice(0,2);
-// console.log(bestEver);
-//
-// console.log(arr[0])
-
-// let backwards = arr.reverse();
-// console.log(backwards);
-
-let backwards = arr.sort();
-console.log(backwards);
-
-
-// let teacherIndex = arr.indexOf("Ryeker"); /*lowercase "R" results -1*/
-// console.log(teacherIndex);
-//
-// let onlyStudents = arr.splice(teacherIndex, 1, 0);
-// console.log(onlyStudents);
+switch(favColor.toUpperCase()) {
+  case "RED":
+  	alert("Red, red, wine ... " + usersName + " nice choice. Enjoy the rest of your day!");
+  	break;
+	case "ORANGE":
+  	alert("Orange? Really? " + usersName + ", Like an Oompa Loompa?");
+  	break;
+	case "YELLOW":
+    alert(usersName + ", Look at the stars, Look how they shine for you, And everything you do, Yeah, they were all yellow.");
+		break;
+  case "GREEN":
+  	alert(usersName + "! I see you got money on your mind! Make it rain! ... or sprinkle.");
+  	break;
+	case "BLUE":
+  	alert("Sing with me " + usersName + ", I'm Blue da ba dee da ba daa!");
+  	break;
+	case "PINK":
+    alert(usersName + " You know I saw her once in concert.");
+		break;
+  case "PURPLE":
+  	alert("Purple rain, purple rain! Don't be shy " + usersName + " sing it loud! No one's watching!");
+  	break;
+	case "BLACK":
+  	alert("Black and yellow, black and yellow ... " + usersName + ", do you remember who sings that song? Nevermind I'll google it later.");
+  	break;
+	case "WHITE":
+    alert(usersName + ", I could be pretty fly for a white guy ... ");
+		break;
+  case "GREY":
+    alert(usersName + ", whoa buddy! All fifty shades?");
+		break;
+  default:
+    alert("Hey! That's not one of the colors!");
+}
