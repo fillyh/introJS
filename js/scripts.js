@@ -192,15 +192,15 @@
 //  alert (favMovieTitles);
 
 
- var favMovie1 = ['Uncle Buck ', 'John Candy \n'];
-  var favMovie2 = ['Stripes ', 'Bill Murry \n'];
-  var favMovie3 = ['Dumb and Dumber ', 'Jim Carrey\n '];
-  var favMovie4 = ['Christmas Vacation ', 'Chevy Chase\n '];
-  var favMovie5 = ['Caddie Shack ', 'Michael O\'Keefe\n '];
-  var myFavMovies = [favMovie1, favMovie2, favMovie3, favMovie4, favMovie5];
-  console.log (myFavMovies);
-
-  var favMovieTitles = [];
- favMovieTitles.push(myFavMovies[0][0], myFavMovies[1][0]);
-
-  alert (favMovieTitles);
+ // var favMovie1 = ['Uncle Buck ', 'John Candy \n'];
+ //  var favMovie2 = ['Stripes ', 'Bill Murry \n'];
+ //  var favMovie3 = ['Dumb and Dumber ', 'Jim Carrey\n '];
+ //  var favMovie4 = ['Christmas Vacation ', 'Chevy Chase\n '];
+ //  var favMovie5 = ['Caddie Shack ', 'Michael O\'Keefe\n '];
+ //  var myFavMovies = [favMovie1, favMovie2, favMovie3, favMovie4, favMovie5];
+ //  console.log (myFavMovies);
+ //
+ //  var favMovieTitles = [];
+ // favMovieTitles.push(myFavMovies[0][0], myFavMovies[1][0]);
+ //
+ //  alert (favMovieTitles);
