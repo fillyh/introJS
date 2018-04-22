@@ -54,35 +54,32 @@ document.getElementById("takehome2").addEventListener("click", takeHome2);
 
 function takeHome2() {
 
-let enterThingsToDo = prompt(`Hi there!, I need three items to do. Help me out by entering three items below. Separate each item with a comma`);
+// // Creates an array of things you need or want to do this weekend by collecting three todos from the user.
+let thingsToDo = prompt('Hi, enter three things that need to get done.' , 'Ex. laundry, dishes, homework');
 
-console.log(enterThingsToDo);
-
-let removeSpaces = /\s*,\s*/;
-let thingsToDo = enterThingsToDo.split(removeSpaces);
 console.log(thingsToDo);
 
-alert("Ok. Here's my to do list: " + thingsToDo);
-};
+let remove = /\s*,\s*/;
+let toDoList = thingsToDo.split(remove);
 
-// // Creates an array of things you need or want to do this weekend by collecting three todos from the user.
-// let thingsToDo = prompt('Hi, enter three things that need to get done.' , 'Ex. laundry, dishes, homework');
-//
-// console.log(thingsToDo);
-//
-// let remove = /\s*,\s*/;
-// let toDoList = thingsToDo.split(remove);
-//
-// console.log(toDoList);
+console.log(toDoList);
+console.log(toDoList.length);
+
+let item1 = [toDoList[0]];
+console.log(item1);
+
+let item2 = [toDoList[1]];
+console.log(item2);
+
+let item3 = [toDoList[2]];
+console.log(item3);
+
+alert("still trying to figure this out lol ... check the console log for now")
+
+};
 //
 // // Using a for loop, change the items in the array by adding days they should be completed to each index.
-// var str = toDoList[0];
-//
-// for (var i = 0; i < 4; i++) {
-//   str = str + i;
-// }
-//
-// console.log(str);
+
 
 // Using a while loop, find the task that will take the longest and log it to the console.
 
