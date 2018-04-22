@@ -3,9 +3,51 @@
   background-color: white;
 }
 
-.image{
+/* .image{
   width:30vw;
   display: block;
     margin-left: auto;
     margin-right: auto;
+} */
+.main-wrapper{
+  padding-top: 100px;
+
+}
+
+.takehome{
+  border: solid 1px grey;
+  width:300px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.takehome p, h2, h3{
+font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+.takehome h3{
+  color:grey;
+  font-weight: 300;
+}
+
+.takehome h2{
+  background-color: #eb4d4b;
+  margin: 0;
+  padding:15px 0;
+  color:white;
+}
+
+.start{
+  background-color: #6ab04c;
+  color:white;
+  padding: 5px;
+  margin:0 30px 15px 30px;
+  border-radius: 10px;
+}
+
+.my-button a{
+text-decoration: none; 
 }
