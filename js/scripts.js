@@ -97,7 +97,7 @@
 // console.log("New list: " + cars2);
 
 // let arr = ["christa", "Ryeker", "Bryan", "Jeff", "sam"];
-let arr = ["christa", "Bryan", "Jeff", "sam"];
+// let arr = ["christa", "Bryan", "Jeff", "sam"];
 // console.log(Array.isArray(arr));
 // arr.shift();
 // console.log(arr);
@@ -110,8 +110,8 @@ let arr = ["christa", "Bryan", "Jeff", "sam"];
 // let backwards = arr.reverse();
 // console.log(backwards);
 
-let backwards = arr.sort();
-console.log(backwards);
+// let backwards = arr.sort();
+// console.log(backwards);
 
 
 // let teacherIndex = arr.indexOf("Ryeker"); /*lowercase "R" results -1*/
@@ -176,3 +176,31 @@ console.log(backwards);
 // var splits = myString.split(' ');
 //
 // console.log(splits);
+
+// var favMovie1 = ['Uncle Buck ', 'John Candy \n'];
+//  var favMovie2 = ['Stripes ', 'Bill Murry \n'];
+//  var favMovie3 = ['Dumb and Dumber ', 'Jim Carrey\n '];
+//  var favMovie4 = ['Christmas Vacation ', 'Chevy Chase\n '];
+//  var favMovie5 = ['Caddie Shack ', 'Michael O\'Keefe\n '];
+//  var myFavMovies = [];
+//  myFavMovies.push(favMovie1, favMovie2, favMovie3, favMovie4, favMovie5)
+//  console.log ("My Favorite Movies are: " + myFavMovies);
+//
+//  var favMovieTitles = [];
+// favMovieTitles.push(myFavMovies[0][0], myFavMovies[1][0]);
+//
+//  alert (favMovieTitles);
+
+
+ var favMovie1 = ['Uncle Buck ', 'John Candy \n'];
+  var favMovie2 = ['Stripes ', 'Bill Murry \n'];
+  var favMovie3 = ['Dumb and Dumber ', 'Jim Carrey\n '];
+  var favMovie4 = ['Christmas Vacation ', 'Chevy Chase\n '];
+  var favMovie5 = ['Caddie Shack ', 'Michael O\'Keefe\n '];
+  var myFavMovies = [favMovie1, favMovie2, favMovie3, favMovie4, favMovie5];
+  console.log (myFavMovies);
+
+  var favMovieTitles = [];
+ favMovieTitles.push(myFavMovies[0][0], myFavMovies[1][0]);
+
+  alert (favMovieTitles);
