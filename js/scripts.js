@@ -65,6 +65,13 @@ let toDoList = thingsToDo.split(remove);
 console.log(toDoList);
 console.log(toDoList.length);
 
+// var myStringArray = ["Hello","World"];
+// var arrayLength = myStringArray.length;
+// for (var i = 0; i < arrayLength; i++) {
+//     console.log(myStringArray[i]);
+//     //Do something
+// }
+
 let item1 = [toDoList[0]];
 console.log(item1);
 
