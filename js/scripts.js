@@ -27,11 +27,26 @@ console.log('my favorite movies ' + favoriteMovies);
 //   i++;
 // }
 
-let i;
+// let i;
+// for (let i =0; i < favoriteMovies.length; i++) {
+//   console.log(i);
+//   console.log(favoriteMovies[ i ][0])
+// }
+
+
+
 for (let i =0; i < favoriteMovies.length; i++) {
-  console.log(i);
-  console.log(favoriteMovies[ i ][0])
+  if (favoriteMovies [i] [0] === 'Avengers') {
+    // console.log(i,favoriteMovies[i]);
+    let correctEntry = favoriteMovies[i];
+    alert(`${correctEntry[0]} and ${correctEntry[1]}`);
+
+  }
+
 }
+
+
+
 
 
 
