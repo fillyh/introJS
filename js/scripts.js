@@ -21,6 +21,7 @@ switch(favColor.toUpperCase()) {
   	break;
 	case "YELLOW":
     alert(usersName + ", Look at the stars, Look how they shine for you, And everything you do, Yeah, they were all yellow.");
+      //alternative: messageToUser = (usersName + ", Look at the stars, Look how they shine for you, And everything you do, Yeah, they were all yellow.");
 		break;
   case "GREEN":
   	alert(usersName + "! I see you got money on your mind! Make it rain! ... or sprinkle.");
@@ -46,6 +47,8 @@ switch(favColor.toUpperCase()) {
   default:
     alert("Hey! That's not one of the colors!");
 }
+
+//alternative:  alert(messageToUser)
 };
 
 // Day4 part II
