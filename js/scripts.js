@@ -65,31 +65,29 @@ let toDoList = thingsToDo.split(remove);
 console.log(toDoList);
 console.log(toDoList.length);
 
-// var myStringArray = ["Hello","World"];
-// var arrayLength = myStringArray.length;
-// for (var i = 0; i < arrayLength; i++) {
-//     console.log(myStringArray[i]);
-//     //Do something
-// }
-
-let item1 = [toDoList[0]];
-console.log(item1);
-
-let item2 = [toDoList[1]];
-console.log(item2);
-
-let item3 = [toDoList[2]];
-console.log(item3);
-
-alert("still trying to figure this out lol ... check the console log for now")
-
-};
-//
 // // Using a for loop, change the items in the array by adding days they should be completed to each index.
 
+let toDoDay = new Date();
+for(let i=0; i<toDoList.length; i++){
+  console.log(`${toDoList[i]} will take at least ${toDoDay.getDay()} days to do.` );
+}
 
 // Using a while loop, find the task that will take the longest and log it to the console.
 
+let i = 0;
+while(i < toDoList.length){
+  if(toDoList[2]===toDoList[2]){
+  let takesTheLongest = toDoList[2];
+  console.log(`Doing ${takesTheLongest} will take the longest`);
+  i++;
+  }
+}
+
 // Using a do while loop, add the string 'done' to all the tasks other than the one that will take the longest
 
+
 // Finally, alert all the tasks that are marked done in the todo array.
+
+
+
+};
