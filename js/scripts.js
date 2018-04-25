@@ -17,7 +17,7 @@ let movie5 = ['Wonder Woman', 'Wonder Wo!'];
 
 let favoriteMovies = [];
 favoriteMovies.push(movie1,movie2, movie3, movie4, movie5);
-console.log('my favorite movies ' + favoriteMovies);
+// console.log('my favorite movies ' + favoriteMovies);
 
 
 // let i = 0;
@@ -27,25 +27,29 @@ console.log('my favorite movies ' + favoriteMovies);
 //   i++;
 // }
 
-// let i;
+
+
+
+
 // for (let i =0; i < favoriteMovies.length; i++) {
-//   console.log(i);
-//   console.log(favoriteMovies[ i ][0])
+//   if (favoriteMovies [i][0] === 'Avengers') {
+//     // console.log(i,favoriteMovies[i]);
+//     let correctEntry = favoriteMovies[i];
+//     console.log(`My Favorite movie is ${correctEntry[0]} and my favorite character is ${correctEntry[1]}`);
+//
+//   }
+//
 // }
 
-
-
 for (let i =0; i < favoriteMovies.length; i++) {
-  if (favoriteMovies [i] [0] === 'Avengers') {
-    // console.log(i,favoriteMovies[i]);
+  if (favoriteMovies [i][0] === 'Avengers') {
+    console.log(i,favoriteMovies[i]);
     let correctEntry = favoriteMovies[i];
-    alert(`${correctEntry[0]} and ${correctEntry[1]}`);
+    console.log(`My Favorite movie is ${correctEntry[0]} and my favorite character is ${correctEntry[1]}`);
 
   }
 
 }
-
-
 
 
 
