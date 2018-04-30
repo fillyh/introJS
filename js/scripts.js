@@ -55,5 +55,5 @@
 //
 // console.log(ageOfUser, productAmount);
 
-// Alert the answer in this format: "You will need x to last you until you're y.
-// BONUS: write it to accept a dynamic max age.
+Alert the answer in this format: "You will need x to last you until you're y.
+BONUS: write it to accept a dynamic max age.
