@@ -1,59 +1,36 @@
-// // /* (thingToLog) same thing = */  thingToLog =>{
-// // console.log(thingToLog);
-// // alert(thingToLog);
-// // }
-//
-// //
-// // thingToLog => {
-// //   return thingToLog;
-// // }
-// //
-// // thingToLog => (thingToLog); /* Implicit Returned Arrow Function - same as previous*/
-//
-// // Accept 1 argument (age of the dog in years).
-// let dogsAge = parseInt(prompt("Hi! How old is your dog?" , '3'));
-// function dogYears(dogsAge){
-//   return (dogsAge*7);
-// }
-// console.log(dogYears(dogsAge));
-//
-// // function lastChance(){
-// //   let dogsAge = parseInt(prompt("where's my numba?!"));
-// //   if(!isNaN(dogsAge)){
-// //     alert(dogYears(dogsAge))
-// //   } else { lastChance();
-// //   }
-// // }
-//
-//
-// if(!isNaN(dogsAge)){
-// alert( dogYears(dogsAge));
-// } else{
-//   let secondTry = parseInt(prompt("Enter A Number, please!!!!"));
+// // // Take a number and return the square of that number (power of 2).
+// // If a non-number argument is passed into the function, alert NaN and prompt for another response
+// function powerOfTwo(){
+// let userNumb = parseInt(prompt("Lets find the power of 2 for any number!" , "Enter a number."));
+// let result = Math.pow(userNumb, 2)
+// if(!isNaN(userNumb)){
+//   alert(`The power of 2 for ${userNumb} is ${result}!`)
+// } else {
+//   powerOfTwo();
 // }
 //
-// alert("In dog years, your dog is " + dogYears(dogsAge));
-
-// Now, write a function that tells you what a "lifetime supply" will be for any product. It should:
-//
-// Accept 2 arguments (age of person now, amount of product per day).
-// Calculate the supply needed for the rest of the user's life, based on a constant max age of 80.
-
-// function maxSupply (ageOfUser, productAmount){
-//   const yearsLeft = 80 - ageOfUser;
-//   return yearsLeft * (365 * productAmount);
 // }
 //
-// let ageOfUser = parseInt(prompt("Gimme Yo Age! Please." , "21"));
-// let productAmount = parseInt(prompt("How many beers do you drink a day?" , "2"));
+// powerOfTwo();
 
-// if(!isNAN(ageOfUser) && !isNaN(productAmount)){
-//   maxSupply (ageNow, amountPerDay);
-//
-// }
 
-//
-// console.log(ageOfUser, productAmount);
+// In a second function, capitalize the first letter of a string and add a period (.) to the end of the string if it doesn't already end with a period
+function grammarPolice(){
+let string = prompt("Type something.");
+let stringArray = string.split("");
+let upperCaseString = stringArray[0].toUpperCase();
+stringArray.splice(0,1, upperCaseString);
+let newString = stringArray.join("")
+console.log(upperCaseString);
+console.log(stringArray);
+console.log(newString);
 
-Alert the answer in this format: "You will need x to last you until you're y.
-BONUS: write it to accept a dynamic max age.
+if(!(stringArray.includes(".", "!", "?"))){
+  alert("Looks like you already had a complete sentence.")
+} else {
+  alert(stringArray.join("") + ".");
+}
+
+}
+
+grammarPolice();
