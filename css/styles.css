@@ -1,0 +1,12 @@
+.box{
+  margin: 0 auto;
+  width:400px;
+  height:200px;
+text-align: center;
+background-color: pink;
+padding-top: 20px;
+}
+
+.yellow{
+  color:yellow;
+}
