@@ -25,10 +25,10 @@ console.log(upperCaseString);
 console.log(stringArray);
 console.log(newString);
 
-if(!(stringArray.includes(".", "!", "?"))){
+if(newString.includes(".", "!", "?")){
   alert("Looks like you already had a complete sentence.")
 } else {
-  alert(stringArray.join("") + ".");
+  alert(newString.join("") + ".");
 }
 
 }
