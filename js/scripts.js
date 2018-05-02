@@ -15,22 +15,46 @@
 
 
 // In a second function, capitalize the first letter of a string and add a period (.) to the end of the string if it doesn't already end with a period
-function grammarPolice(){
-let string = prompt("Type something.");
-let stringArray = string.split("");
-let upperCaseString = stringArray[0].toUpperCase();
-stringArray.splice(0,1, upperCaseString);
-let newString = stringArray.join("")
-console.log(upperCaseString);
-console.log(stringArray);
-console.log(newString);
+// function grammarPolice(){
+// let string = prompt("Type something.");
+// let stringArray = string.split("");
+// let upperCaseString = stringArray[0].toUpperCase();
+// stringArray.splice(0,1, upperCaseString);
+// let newString = stringArray.join("")
+// console.log(upperCaseString);
+// console.log(stringArray);
+// console.log(newString);
+//
+// if(!(stringArray.includes(".", "!", "?"))){
+//   alert("Looks like you already had a complete sentence.")
+// } else {
+//   alert(stringArray.join("") + ".");
+// }
+//
+// }
 
-if(newString.includes(".", "!", "?")){
-  alert("Looks like you already had a complete sentence.")
-} else {
-  alert(newString.join("") + ".");
+// grammarPolice();
+
+
+//class answer
+
+function alertString(str){
+  if(str.charAt(str.length - 1) !== '.'){
+    str += '.';
+  }
+  str = str.charAt(0).toUpperCase() + str.slice(1);
+  alert(str);
 }
 
-}
 
-grammarPolice();
+function flipHalves(stringToFlip){
+  let firstHalf = stringToFlip.substr(0, stringToFlip.length /2);
+  let secondHalf = stringToFlip.substr(stringToFlip.length / 2);
+  alert(`${secondHalf}${firstHalf}`);
+}
+let stringy = prompt("let me flip ya");
+flipHalves(stringy);
+
+function definePal(string){
+  let reverse = string.split(' ').reverse(' ').join(' '); /*method chain*/
+}
