@@ -10,3 +10,8 @@ padding-top: 20px;
 .yellow{
   color:yellow;
 }
+
+h3{
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
