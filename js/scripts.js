@@ -23,3 +23,17 @@ convertTemps(scale, temperature);
 
 // From that point on, when the user clicks on the h3, run the function to convert the temperature back and forth between Celcius and Fahrenheit.
 // Display the converted temperature in the h3 each time it is changed.
+
+//Day6 HW review
+function convertTemp(scale, temp){
+  scale = scale.toLowerCase();
+  let returnVal;
+  let oppositeVal = scale === 'c'? 'Fahrenheit' : 'Celcius';
+  temp = parseInt(temp);
+  if(!isNaN(temp)){
+    formula
+h3.innerText =
+  }
+
+
+}
